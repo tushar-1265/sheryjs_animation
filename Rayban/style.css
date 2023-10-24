@@ -1,3 +1,12 @@
+
+@font-face {
+    font-family: 'gilroy'; /* The name you want to use for the font */
+    src: url('./Gilroy-Regular.ttf') format('ttf'); /* Path to your font file and its format */
+}
+@font-face {
+    font-family: 'kajiro'; /* The name you want to use for the font */
+    src: url('./Kajiro Bold.ttf') format('ttf'); /* Path to your font file and its format */
+}
 *{
     margin: 0;
     padding: 0;
