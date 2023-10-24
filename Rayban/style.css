@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "gilroy";
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+}
+
+.back{
+    width: 100%;
+    height: 100vh;
+}
+
+.back img{
+    width: 100%;
+    height: 100vh;
+    object-fit:cover;
+}
+.top{
+    pointer-events: none;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.working_area{
+    width: 80%;
+    height: 100vh;
+    max-width: 1920px;
+    /* border: 2px solid white; */
+    margin: 0 auto;
+    position: relative;
+}
+
+.nav{
+    width: 100%;
+    padding: 40px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navleft,.navright{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.navleft img{
+    height: 50px;
+}
+
+.nav a{
+    pointer-events: all;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.hero{
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    transform: translate(0%,-50%);
+    margin-top: 50px;
+}
+
+.heroleft{
+    min-width: 50%;
+}
+
+
+.heroleft .elem{
+    height: 9vw;
+    /* background-color: blue; */
+    overflow: hidden;
+    position: relative;
+}
+
+.heroleft .elem h1:nth-child(1){
+    top:0%;
+}
+.heroleft .elem h1{
+    position: absolute;
+    top: 100%;
+    left:0%;
+    text-transform: uppercase;
+    font-family: "kajiro";
+    color: white;
+    font-size: 11vw;
+    font-weight: 100;
+    line-height: 0.9;
+}
+
+.heroleft button{
+    pointer-events: all;
+    font-family: "kajiro";
+    padding: 1vw 3vw;
+    font-size: 3vw;
+    margin-top: 2vw;
+    cursor: pointere;
+}
+.heroright{
+    width: 18%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: white;
+    
+}
+
+.heroright p{
+    font-size: 13px;
+    font-weight: 300;
+    text-align: right;
+    line-height: 1;
+}
+
+.heroright .imagediv{
+    width: 100%;
+    height: 170px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background: url(https://images.unsplash.com/photo-1527203561188-dae1bc1a417f?auto=format&fit=crop&q=80&w=1915&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+.heroright p:nth-child(3)
+{
+    margin-bottom: 100px;
+}
+
+
+
+
